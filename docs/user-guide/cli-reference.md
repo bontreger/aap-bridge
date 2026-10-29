@@ -235,7 +235,7 @@ aap-bridge migrate
 aap-bridge migrate resume
 
 # Resume from a specific migration phase
-aap-bridge migrate resume --from-phase inventory
+aap-bridge migrate resume --from-phase inventories
 
 # Run only selected resource types through export, transform, and import
 aap-bridge migrate -r organizations -r projects -r inventories
